@@ -8,6 +8,8 @@
     <script src="js/vendor/modernizr.js"></script>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/code.min.css">
+    <script src="http://yandex.st/highlightjs/8.0/highlight.min.js"></script>
     <style>
     body {
       -webkit-font-smoothing: antialiased;
@@ -34,14 +36,15 @@
     }
 
     .slidesjs-pagination {
-      margin: 6px 0 0;
-      float: right;
+      margin: 0 auto;
       list-style: none;
+
+      top: 0;
+      right: 0;
     }
 
     .slidesjs-pagination li {
-      float: left;
-      margin: 0 1px;
+      margin: 0 auto;
     }
 
     .slidesjs-pagination li a {
@@ -52,6 +55,7 @@
       background-image: url(img/pagination.png);
       background-position: 0 0;
       float: left;
+      margin: 0 auto;
       overflow: hidden;
     }
 
@@ -165,10 +169,28 @@
                             <img class="small-12 medium-12 large-6 columns th" src="http://media500.dropshots.com/photos/1195962/20140617/b_010350.png" data-equalizer-watch>
                         </li>
                         <li class="text-center row" data-equalizer>
-                            <p class="small-12 medium-12 large-6 columns text-justify" data-equalizer-watch>3.-Dar clic derecho en enquipo y seleccionar la opción propiedades</p>
-                            <img class="small-12 medium-12 large-6 columns th" src="http://media500.dropshots.com/photos/1195962/20140617/010725.png" data-equalizer-watch>
+                            <p class="small-12 medium-12 large-6 columns text-justify" data-equalizer-watch>3.-Dar clic derecho en equipo y seleccionar la opción propiedades</p>
+                            <img class="small-12 medium-4 large-3 columns th left" src="http://media500.dropshots.com/photos/1195962/20140617/010725.png" data-equalizer-watch>
                         </li>
-                    </ul>
+                        <li class="text-center row" data-equalizer>
+                            <p class="small-12 medium-12 large-6 columns text-justify" data-equalizer-watch>4.-Seleccionar la opción "Configuración avanzada del sistema".</p>
+                            <img class="small-12 medium-4 large-3 columns th left" src="http://media501.dropshots.com/photos/1195962/20140617/202810.png" data-equalizer-watch>
+                        </li>
+                        <li class="text-center row" data-equalizer>
+                            <p class="small-12 medium-12 large-6 columns text-justify" data-equalizer-watch>5.-Seleccionar la opción "Variables de entorno".</p>
+                            <img class="small-12 medium-12 large-6 columns th" src="http://media501.dropshots.com/photos/1195962/20140617/b_203236.png" data-equalizer-watch>
+                        </li>
+                        <li class="text-center row" data-equalizer>
+                            <p class="small-12 medium-12 large-6 columns text-justify" data-equalizer-watch>6.-Encontrar la variable "Path" y seleccionar "Editar".</p>
+                            <img class="small-12 medium-12 large-6 columns th" src="http://media500.dropshots.com/photos/1195962/20140617/b_203430.png" data-equalizer-watch>
+                        </li>
+                        <li class="text-center row" data-equalizer>
+                            <div class="small-12 medium-12 large-6 columns" data-equalizer-watch>
+                                <p class="large-12 columns text-justify">7.-Agregar el final del "Valor de la variable" la ruta en la que se instaló Python, en éste caso:</p>
+                                <pre class="large-12 columns"><code>C:\Python27\;</code></pre>
+                            </div>
+                            <img class="small-12 medium-12 large-6 columns th" src="http://media501.dropshots.com/photos/1195962/20140617/212608.png" data-equalizer-watch>
+                        </li>
             </div>
         </article>
 
@@ -201,5 +223,6 @@
     <script>
         $(document).foundation();
     </script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
