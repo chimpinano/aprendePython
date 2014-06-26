@@ -503,6 +503,85 @@
                 </div>
             </div>
             <h4 style="font-weight: lighter; color:#333;">Operador <span style="font-weight:bold;">or</span> y operador  <span style="font-weight:bold;">and</span></h4>
+            <p class="text-justify">
+                Conocidos tambié como operadores lógicos de unión, éstos sirven para juntar dos o más condiciones lógicas como las anteriores.
+            </p>
+            <p class="text-juustify">
+                Podríamos nombrar al operador and como el más extricto, éste devolverá <span style="font-weight:bold;">True (verdadero)</span> si las condiciones comparadas son todas verdaderas, en caso de sólo uno devuelva falso la condición final devolverá <span style="font-weight:bold;">False (falso)</span>.
+            </p>
+            <div class="row" data-equalizer>
+                <div class="small-12 medium-7 large-7 columns" data-equalizer-watch>
+                    <p class="text-justify">
+                        Suponiendo que queremos saber el resultado de la siguiente condición:
+                    </p>
+                    <p class="panel">¿5 es menor que 6 y 6 igual que 6?<br>Si</p>
+                </div>
+                <div class="small-12 medium-5 large-5 columns" data-equalizer-watch>
+                    <p class="text-justify">
+                        En Python sería algo así:
+                    </p>
+                    <div class="text-left">
+                        <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">>>> 5 < 6 and 6 == 6</code></pre>
+                        <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">True                </code></pre>
+                    </div>
+                </div>
+            </div>
+             </p>
+            <div class="row" data-equalizer>
+                <div class="small-12 medium-7 large-7 columns" data-equalizer-watch>
+                    <p class="text-justify">
+                        Suponiendo que queremos saber el resultado de la siguiente condición:
+                    </p>
+                    <p class="panel">¿5 es menor que 6 y 6 igual que 8?<br>No</p>
+                </div>
+                <div class="small-12 medium-5 large-5 columns" data-equalizer-watch>
+                    <p class="text-justify">
+                        En Python sería algo así:
+                    </p>
+                    <div class="text-left">
+                        <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">>>> 5 < 6 and 6 == 8</code></pre>
+                        <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">False               </code></pre>
+                    </div>
+                </div>
+            </div>
+            <h4 style="font-weight: lighter; color:#333;">Operador <span style="font-weight:bold;">not</span>.</h4>
+            <p class="text-justify">
+               Éste operador tiene la única función de negar un caso cualquiera, es decir, si tenemos <span style="font-weight:bold;">False</span> y lo negamos, el resultado final será <span style="font-weight:bold;">True</span> y viceversa.
+            </p>
+            <div class="row" data-equalizer>
+                <div class="small-12 medium-7 large-7 columns" data-equalizer-watch>
+                    <p class="text-justify">
+                        Negando la siguiente condición:
+                    </p>
+                    <p class="panel">¿6 es igual que 6?<br>No</p>
+                </div>
+                <div class="small-12 medium-5 large-5 columns" data-equalizer-watch>
+                    <p class="text-justify">
+                        En Python sería algo así:
+                    </p>
+                    <div class="text-left">
+                        <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">>>> not 6 == 6</code></pre>
+                        <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">False         </code></pre>
+                    </div>
+                </div>
+            </div>
+            <div class="row" data-equalizer>
+                <div class="small-12 medium-7 large-7 columns" data-equalizer-watch>
+                    <p class="text-justify">
+                        Negando la siguiente condición:
+                    </p>
+                    <p class="panel">¿6 es igual que 7?<br>Si</p>
+                </div>
+                <div class="small-12 medium-5 large-5 columns" data-equalizer-watch>
+                    <p class="text-justify">
+                        En Python sería algo así:
+                    </p>
+                    <div class="text-left">
+                        <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">>>> not 6 == 7</code></pre>
+                        <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">True          </code></pre>
+                    </div>
+                </div>
+            </div>
         </article>
         <article class="row">
             <hr>
