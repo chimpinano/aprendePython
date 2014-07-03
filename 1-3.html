@@ -282,9 +282,129 @@ type 'str'</code></pre>
             </div>
             <br>
             <p class="text-justify">
-                Todas las cosas que puedes hacer con un String son geniales, pero si deseas conocer más te recomiendo leer la <a href="https://docs.python.org/2.7/library/string.html" target="_new">documentación</a>.
+                Todas las cosas que puedes hacer con un String son geniales, pero si deseas conocer más te recomiendo leer la <a href="https://docs.python.org/2.7/" target="_new">documentación</a>.
             </p>
             <h4 style="font-weight: lighter; color:#333;">Números</h4>
+            <p class="text-justify">
+                En Python podemos resumir cuatro tipos de números, enteros, largos, flotantes y complejos pero en ésta ocasión solo nos enfocaremos en los enteros (int) y floatentes (float).
+                <br>
+                Un número entero no contiene decimales y al realizar operaciones entre dos enteros sólo podrás obtener otro entero. En Python se declaran así:
+            </p>
+            <div class="text-left">
+                <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">>>>entero = 17
+>>>type(entero)
+type 'int'</code></pre>
+            </div>
+            <br>
+            <p class="text-justify">
+                Los flotantes son también llamados números de coma flotante, éstos números tienen la posibilidad de representar decimales:
+            </p>
+            <div class="text-left">
+                <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">>>>flotante = 3.141592
+>>>type(flotante)
+type 'float'</code></pre>
+            </div>
+            <br>
+            <p class="text-justify">
+                Dentro de las funciones que poseen los números encontramos:
+                <br>
+                Obtener el valor absoluto de un número:
+            </p>
+            <div class="text-left">
+                <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">>>>numero = -3
+>>>abs(numero)
+3</code></pre>
+            </div>
+            <br>
+            <p class="text-justify">
+                Convertir un entero a flotante:
+            </p>
+            <div class="text-left">
+                <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">>>>numero = 10
+>>>float(numero)
+10.0</code></pre>
+            </div>
+            <br>
+            <p class="text-justify">
+                Convertir un flotante a entero:
+            </p>
+            <div class="text-left">
+                <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">>>>numero = 3.141592
+>>>int(numero)
+3</code></pre>
+            </div>
+            <br>
+            <p class="text-justify">
+                Convertir un entero a binario (en un string):
+            </p>
+            <div class="text-left">
+                <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">>>>numero = 2014
+>>>bin(numero)
+'0b11111011110'</code></pre>
+            </div>
+            <br>
+            <p class="text-justify">
+                Convertir un entero a hexadecimal (en un string):
+            </p>
+            <div class="text-left">
+                <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">>>>numero = 31251
+>>>hex(numero)
+'0x7a13'</code></pre>
+            </div>
+            <br>
+            <p class="text-justify">
+                Convertir un entero a octal (en un string):
+            </p>
+            <div class="text-left">
+                <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">>>>numero = 2343
+>>>oct(numero)
+'04447'</code></pre>
+            </div>
+            <br>
+            <p class="text-justify">
+                Conocer el cociente y resto respectivamente de dos números, dividendo y divisor respectivamente:
+            </p>
+            <div class="text-left">
+                <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">>>>divmod(4,5)
+(0, 4)</code></pre>
+            </div>
+            <br>
+            <p class="text-justify">
+                Conocer el mayor de dos números:
+            </p>
+            <div class="text-left">
+                <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">>>>max(5,6)
+6</code></pre>
+            </div>
+            <br>
+            <p class="text-justify">
+                Conocer el menor de dos números:
+            </p>
+            <div class="text-left">
+                <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">>>>min(5,6)
+5</code></pre>
+            </div>
+            <br>
+            <p class="text-justify">
+                Exponenciar un número, base y exponente respectivamente:
+            </p>
+            <div class="text-left">
+                <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">>>>pow(3,4)
+81</code></pre>
+            </div>
+            <br>
+            <p class="text-justify">
+                Redondear un flotante, número por redondear y digitos despues del punto decimal respectivamente:
+            </p>
+            <div class="text-left">
+                <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">>>>round(3.141592,2)
+3.14</code></pre>
+            </div>
+            <br>
+            <p class="text-justify">
+                Si deseas saber más acerca de las funciones existentes te recomiendo checar la <a href="https://docs.python.org/2.7/">documentación</a>.
+            </p>
+            <h4 style="font-weight: lighter; color:#333;">Booleanos</h4>
         </article>
         <article class="row">
             <hr>
