@@ -169,7 +169,7 @@
             </div>
             <div class="small-12 medium-12 large-12 columns">
             	<p class="text-justify">
-            		Hemos aprendido como imprimir una línea te texto, como obtener el resultado de una operación e incluso hacer operaciones lógicas, pero ¿Qué pasa si queremos alacenar ese resultado para volverlo a utilizar? Para ésto existen las <span style="font-weight:bold;">variables</span> que cumplen con esa función.
+            		Hemos aprendido como imprimir una línea te texto, como obtener el resultado de una operación e incluso hacer operaciones lógicas, pero ¿Qué pasa si queremos almacenar ese resultado para volverlo a utilizar? Para ésto existen las <span style="font-weight:bold;">variables</span>.
             	</p>
             	<p class="text-justify">
                     Una variable en programación es bastante similar a una variable en álgebra y en Python se declaran de la misma manera.
@@ -213,7 +213,7 @@ estudiante = True</code></pre>
             </div>
             <h4 style="font-weight: lighter; color:#333;">Texto</h4>
             <p class="text-justify">
-                En programación conocido como <span style="font-weight:bold;">Cadenas</span> o <span style="font-weight:bold;">Strings</span>. Python tiene diferentes maneras de alamacenar texto, ya sea de tipo bytearray o unicode (en Python 3 todas las cadenas con unicode) pero en ésta ocación solo nos enfocaremos a las cadenas de texto normales:
+                En programación conocido como <span style="font-weight:bold;">Cadenas</span> o <span style="font-weight:bold;">Strings</span>. Python tiene diferentes maneras de alamacenar texto, ya sea de tipo bytearray o unicode (en Python 3 todas las cadenas son unicode) pero en ésta ocación solo nos enfocaremos a las cadenas de texto normales:
             </p>
             <div class="text-left">
                 <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">texto = "Hola, soy un texto"</code></pre>
@@ -286,7 +286,7 @@ type 'str'</code></pre>
             </p>
             <h4 style="font-weight: lighter; color:#333;">Números</h4>
             <p class="text-justify">
-                En Python podemos resumir cuatro tipos de números, enteros, largos, flotantes y complejos pero en ésta ocasión solo nos enfocaremos en los enteros (int) y floatentes (float).
+                En Python podemos resumir cuatro tipos de números, enteros, largos, flotantes y complejos pero en ésta ocasión solo nos enfocaremos en los <span style="font-weight:bold;">enteros</span> (int) y <span style="font-weight:bold;">floatentes</span> (float).
                 <br>
                 Un número entero no contiene decimales y al realizar operaciones entre dos enteros sólo podrás obtener otro entero. En Python se declaran así:
             </p>
@@ -297,7 +297,7 @@ type 'int'</code></pre>
             </div>
             <br>
             <p class="text-justify">
-                Los flotantes son también llamados números de coma flotante, éstos números tienen la posibilidad de representar decimales:
+                Los flotantes son también llamados números de coma flotante, éstos siempre son representados con un punto decimal:
             </p>
             <div class="text-left">
                 <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">>>>flotante = 3.141592
@@ -405,6 +405,31 @@ type 'float'</code></pre>
                 Si deseas saber más acerca de las funciones existentes te recomiendo checar la <a href="https://docs.python.org/2.7/">documentación</a>.
             </p>
             <h4 style="font-weight: lighter; color:#333;">Booleanos</h4>
+            <p class="text-justify">
+                Los booleanos son el tipo de dato más sencillo que puede existir, éstos solo pueden tener dos valores, <span style="font-weight:bold;">True</span> (verdadero) y <span style="font-weight:bold;">False</span> (falso) y la forma de declararse es así:
+            </p>
+            <div class="text-left">
+                <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">verdadero = True
+falso = False</code></pre>
+            </div>
+            <br>
+            <p class="text-justify">
+                Es muy importante que cuando declaremos un valor booleano los valores no estén entrecomillados y se escriban siempre con la primera letra en mayúscula y las demás en minúscula, de otra manera Python no sabrá que es un booleano.
+            </p>
+            <div class="text-left">
+                <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">>>>type(True)
+type 'bool'</code></pre>
+            </div>
+            <br>
+            <p class="text-justify">
+                La función más común para los valores booleanos es <span style="font-weight:bold;">Not</span>, la cuál niega el valor actual y lo convierte al valor opuesto:
+            </p>
+            <div class="text-left">
+                <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">>>>booleano = True
+>>>not booleano
+False</code></pre>
+            </div>
+            <br>
         </article>
         <article class="row">
             <hr>
