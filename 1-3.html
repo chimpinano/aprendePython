@@ -171,7 +171,7 @@
             </div>
             <div class="small-12 medium-12 large-12 columns">
             	<p class="text-justify">
-            		Hemos aprendido como imprimir una línea te texto, como obtener el resultado de una operación e incluso hacer operaciones lógicas, pero ¿Qué pasa si queremos almacenar ese resultado para volverlo a utilizar? Para ésto existen las <span style="font-weight:bold;">variables</span>.
+            		Hemos aprendido como imprimir una línea de texto, como obtener el resultado de una operación e incluso hacer operaciones lógicas, pero ¿Qué pasa si queremos almacenar ese resultado para volverlo a utilizar? Para ésto existen las <span style="font-weight:bold;">variables</span>.
             	</p>
             	<p class="text-justify">
                     Una variable en programación es bastante similar a una variable en álgebra y en Python se declaran de la misma manera.
@@ -215,7 +215,7 @@ estudiante = True</code></pre>
             </div>
             <h4 style="font-weight: lighter; color:#333;">Texto</h4>
             <p class="text-justify">
-                En programación conocido como <span style="font-weight:bold;">Cadenas</span> o <span style="font-weight:bold;">Strings</span>. Python tiene diferentes maneras de alamacenar texto, ya sea de tipo bytearray o unicode (en Python 3 todas las cadenas son unicode) pero en ésta ocación solo nos enfocaremos a las cadenas de texto normales:
+                En programación conocido como <span style="font-weight:bold;">Cadenas</span> o <span style="font-weight:bold;">Strings</span>. Python tiene diferentes maneras de alamacenar texto, ya sea de tipo bytearray o unicode (en Python 3 todas las cadenas son unicode) pero en ésta ocasión solo nos enfocaremos a las cadenas de texto normales:
             </p>
             <div class="text-left">
                 <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">texto = "Hola, soy un texto"</code></pre>
@@ -288,7 +288,7 @@ type 'str'</code></pre>
             </p>
             <h4 style="font-weight: lighter; color:#333;">Números</h4>
             <p class="text-justify">
-                En Python podemos resumir cuatro tipos de números, enteros, largos, flotantes y complejos pero en ésta ocasión solo nos enfocaremos en los <span style="font-weight:bold;">enteros</span> (int) y <span style="font-weight:bold;">floatentes</span> (float).
+                En Python podemos resumir cuatro tipos de números, enteros, largos, flotantes y complejos pero en ésta ocasión solo nos enfocaremos en los <span style="font-weight:bold;">enteros</span> (int) y <span style="font-weight:bold;">flotantes</span> (float).
                 <br>
                 Un número entero no contiene decimales y al realizar operaciones entre dos enteros sólo podrás obtener otro entero. En Python se declaran así:
             </p>
@@ -396,7 +396,7 @@ type 'float'</code></pre>
             </div>
             <br>
             <p class="text-justify">
-                Redondear un flotante, número por redondear y digitos despues del punto decimal respectivamente:
+                Redondear un flotante. Número por redondear y digitos después del punto decimal respectivamente:
             </p>
             <div class="text-left">
                 <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">>>>round(3.141592,2)
@@ -437,7 +437,7 @@ False</code></pre>
             </p>
             <h4 style="font-weight: lighter; color:#333;">Listas</h4>
             <p class="text-justify">
-                En las listas y en los siguientes tipos de datos que veremos se puede almacenar cualquier tipo de dato a diferencia de algunos otros lenguajes donde únicamente puedes un sólo tipo de dato.
+                En las listas y en los siguientes tipos de datos que veremos se puede almacenar cualquier clase de dato a diferencia de algunos otros lenguajes donde únicamente puedes un sólo tipo de dato.
             </p>
             <p class="text-justify">
                 La forma de declarar una lista en Python es la siguiente:
@@ -449,7 +449,7 @@ type 'list'</code></pre>
             </div>
             <br>
             <p class="text-justify">
-                El "formato" de una lista es simple, todo el contenido va entre paréntesis y cada valor es separado por una coma. Como ya lo había mencionado, puedes almacenar todo tipo de datos dentro de una lista, incluso una lista.
+                El "formato" de una lista es simple, todo el contenido va entre corchetes y cada valor es separado por una coma. Como ya lo había mencionado, puedes almacenar todo tipo de datos dentro de una lista, incluso una lista.
             </p>
             <p class="text-justify">
                 La forma de obtener un valor almacenado en la lista es la siguiente:
@@ -459,7 +459,7 @@ type 'list'</code></pre>
 >>>lista[0]
 'String'
 >>>lista[3]
-('Soy otra lista', 4)</code></pre>
+['Soy otra lista', 4]</code></pre>
             </div>
             <br>
             <p class="text-justify">
@@ -476,16 +476,16 @@ ERROR</code></pre>
             </div>
             <br>
             <p class="text-justify">
-                Las listas pueden cambiar, agragar o quitar valores por lo que son de tipo mutable.
+                Las listas pueden cambiar, agregar o quitar valores por lo que son de tipo mutable.
             </p>
             <p class="text justify">
                 Para cambiar un valor en específico de una lista podemos hacer lo siguiente:
             </p>
             <div class="text-left">
                 <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">>>>lista = ['Soy el primer valor', 'Soy el segundo valor']
->>>lista[0] = 'Hola'
+>>>lista[0] = 3.14592
 >>>lista
-['Hola', 'Soy el segundo valor']</code></pre>
+[3.14592, 'Soy el segundo valor']</code></pre>
             </div>
             <br>
             <p class="text justify">
@@ -495,7 +495,7 @@ ERROR</code></pre>
                 <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">>>>lista = ['Soy el primer valor', 'Soy el segundo valor']
 >>>lista.append('Soy el nuevo valor')
 >>>lista
-lista = ['Soy el primer valor', 'Soy el segundo valor', 'Soy el nuevo valor']</code></pre>
+['Soy el primer valor', 'Soy el segundo valor', 'Soy el nuevo valor']</code></pre>
             </div>
             <br>
             <p class="text justify">
@@ -505,7 +505,7 @@ lista = ['Soy el primer valor', 'Soy el segundo valor', 'Soy el nuevo valor']</c
                 <pre class="text-left" style="white-space: pre-wrap;"><code class="ptyhon">>>>lista = ['Soy el primer valor', 'Soy el segundo valor']
 >>>lista.remove('Soy el primer valor')
 >>>lista
-lista = ['Soy el segundo valor']</code></pre>
+['Soy el segundo valor']</code></pre>
             </div>
             <br>
             <p class="text-justify">
@@ -564,7 +564,7 @@ type 'dict'</code></pre>
                 <h3 style="font-weight: lighter; color:#333; ">Siguientes temas:</h3>
                 <ul style="list-style:none; margin: 0 0 0 3em;">
                     <li>1.- <a href="http://pablotrinidad.github.io/aprendePython/1-1.html"> ¿Qué es Python.</a></li>
-                    <li>3.- <a href="http://pablotrinidad.github.io/aprendePython/1-2.html"> Primeros pasos.</a></li>
+                    <li>2.- <a href="http://pablotrinidad.github.io/aprendePython/1-2.html"> Primeros pasos.</a></li>
                     <li>4.- <a href="http://pablotrinidad.github.io/aprendePython/1-4.html"> Condicionales.</a></li>
                     <li>5.- <a href="http://pablotrinidad.github.io/aprendePython/1-5.html"> Bucles.</a></li>
                 </ul>
